@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_sweet.mk
+    $(LOCAL_DIR)/syberia_sweet.mk
+    
+    COMMON_LUNCH_CHOICES := \
+    syberia_sweet-user \
+    syberia_sweet-userdebug \
+    syberia_sweet-eng
