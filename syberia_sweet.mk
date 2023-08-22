@@ -24,6 +24,10 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Syberia Stuff
 SYBERIA_BUILD_TYPE := UNOFFICIAL
-WITH_GMS=true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# GAPPS 
+WITH_GAPPS := true 
+TARGET_GAPPS_ARCH := arm64
+$(call inherit-product, vendor/google/gms/config.mk)
