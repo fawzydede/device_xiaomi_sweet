@@ -2,11 +2,12 @@
 android_app_import {
     name: "GoogleCamera",
 
-    overrides: ["Aperture", "Snap", "Camera2", "GoogleCameraGo", "GrapheneCamera", "Camera", "CameraGraphene"],,
+    overrides: ["Aperture", "Snap", "Camera2", "GoogleCameraGo", "GrapheneCamera", "Camera", "CameraGraphene"],
 
     dex_preopt: {
         enabled: false,
     },
+
     apk: "GoogleCamera.apk",
     presigned: true,
 
@@ -21,6 +22,7 @@ android_app_import {
     dex_preopt: {
         enabled: false,
     },
+
     apk: "Photos.apk",
     presigned: true,
 
