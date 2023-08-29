@@ -435,3 +435,8 @@ $(call inherit-product-if-exists, vendor/xiaomi/sweet-miuicamera/products/miuica
 
 # Inherit MiSound
 $(call inherit-product-if-exists, vendor/xiaomi/sweet-misound/MiSound.mk)
+
+# Prebuilt
+PRODUCT_PACKAGES += \
+    GoogleCamera \
+    Photos

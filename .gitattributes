@@ -1,0 +1,2 @@
+prebuilt/GoogleCamera.apk filter=lfs diff=lfs merge=lfs -text
+prebuilt/Photos.apk filter=lfs diff=lfs merge=lfs -text

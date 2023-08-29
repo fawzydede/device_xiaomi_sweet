@@ -1,0 +1,27 @@
+// Google Camera
+android_app_import {
+    name: "GoogleCamera",
+
+    overrides: ["Aperture", "Snap", "Camera2", "GoogleCameraGo", "GrapheneCamera", "Camera", "CameraGraphene"],,
+
+    dex_preopt: {
+        enabled: false,
+    },
+    apk: "GoogleCamera.apk",
+    presigned: true,
+
+}
+
+// Google Photos
+android_app_import {
+    name: "Photos",
+
+    overrides: ["Gallery", "Gallery2", "QuickPic", "SimpleGallery"],
+
+    dex_preopt: {
+        enabled: false,
+    },
+    apk: "Photos.apk",
+    presigned: true,
+
+}
